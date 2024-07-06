@@ -1,0 +1,8 @@
+install
+$ sudo apt-get install stow
+
+create
+$ stow --dotfiles -v -t ~/ [APPNAME]
+
+delete
+$ stow --dotfiles -D -v -t ~/ [APPNAME]
